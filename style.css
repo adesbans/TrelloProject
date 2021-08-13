@@ -1,0 +1,74 @@
+/*
+ * Styling for the Trello page
+ *
+ * @author Alex Desbans
+ */
+
+/*General body styles*/
+body {
+    background-attachment: fixed;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*Styles each task*/
+.task {
+    float: left;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    max-height: 550px;
+    background-color: rgb(72, 170, 209);
+    box-sizing: border-box;
+    border-radius: 5px;
+    overflow-y: auto;
+    
+}
+#missed {
+    color: red;
+}
+
+#onTime {
+    color: green;
+}
+/*Styles each card*/
+.card {
+    background-color: rgb(232, 201, 252);
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 2px;
+}
+
+
+.imageacceptor{
+    max-width: 350px;
+    float: right;
+    margin-right: 10px;
+}
+
+/*Styles each tag*/
+.tag {
+    /*background-color: rgb(208, 223, 77);*/
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: inline;
+    margin: 2px;
+    padding: 1px;
+}
+
+/*Styles the footer to stay centered at the bottom*/
+/*used example from the resourse to code this styling: https://stackoverflow.com/questions/18739937/how-to-keep-footer-at-bottom-of-screen*/
+#footer {
+  position: relative;
+  margin-top: -180px;
+  height: 180px;
+  clear: both;
+}
+
+.colorPicker {
+    float: right;
+    margin-right: 12px;
+    margin-top: 5px;
+}
